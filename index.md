@@ -2,6 +2,9 @@
 
 <div align="center"> <img src="cover.png"/> </div>  
   
+Dangerous functions in Python like **eval()** can be used to achieve authentication bypass and even code injection. However, this episode I will tell you **how to use it safely and effectively** to evaluate arbitrary Python expressions.  
+  
+
 
 ______________________________
 <table border="0">
