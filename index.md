@@ -4,7 +4,12 @@
   
 Dangerous functions in Python like **eval()** can be used to achieve authentication bypass and even code injection. However, this episode I will tell you **how to use it safely and effectively** to evaluate arbitrary Python expressions.  
   
-
+## How Eval() works.  
+The **eval()** function in Python takes strings and execute them as code. For example, **eval(‘1+1’)** would **return 2**.  
+  
+Since eval() can be used to execute arbitrary code on the system, This is an example of a vulnerable code:  
+<div align="center"> <img src="eval01.png"/> </div>  
+  
 
 ______________________________
 <table border="0">
